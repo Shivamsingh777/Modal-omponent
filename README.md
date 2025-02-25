@@ -1,1 +1,1 @@
-# Modal-omponent
+# Modal-Component
