@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;margin: 21px;
+}
+.btn {
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    background-color: darkcyan;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 10%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    display: none;
+}
+.modal-details {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+.M {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.M:hover {
+    color: red;
+}
